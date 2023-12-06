@@ -60,4 +60,20 @@
             "scss": "sass --watch src/resource/scss/style.scss src/public/css/style.css"
         },
     * s3. npm run scss.
+
+
+
+== Route ==
+    // app.post('/form', (req, res) => {
+    //     console.log("kq ", res.render('form/form'));
+    //     let param = {
+    //         name: req.body.name,
+    //         password: req.body.password
+    //     }
+    //     res.render('form/form', param);
+    // })
+    // app.get('/form', (req, res) => {
+    //     // console.log("kq ", res.render('form/form'));
+    //     res.render('form/form');
+    // })
     
