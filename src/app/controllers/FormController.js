@@ -21,7 +21,7 @@ class FormController {
         // } catch (error) {
         //     res.status(400).render({ error: "Upload unsuccessfully!" });
         // }
-        console.log("KQ: ",req.file.originalname);
+        console.log("KQ: ", req.file.originalname);
         res.render('form/form');
     }
 
